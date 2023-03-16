@@ -15,4 +15,4 @@ for i in range(N):
 
     stack.append([i, A[i]])
 
-print(" ".join(map(str, answer)))
+print(*answer)
