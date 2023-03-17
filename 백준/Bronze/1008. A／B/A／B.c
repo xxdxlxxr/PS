@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-	double a, b;
+	double A, B;
     
-	scanf("%lf %lf", &a, &b);
-	printf("%.9lf", a / b);
+	scanf("%lf %lf", &A, &B);
+	printf("%.9lf", A / B);
 }
