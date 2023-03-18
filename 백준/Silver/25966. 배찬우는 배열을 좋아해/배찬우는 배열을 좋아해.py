@@ -8,9 +8,7 @@ for _ in range(q):
     query = list(map(int, input().split()))
 
     if query[0]:
-        tmp = answer[query[1]]
-        answer[query[1]] = answer[query[2]]
-        answer[query[2]] = tmp
+        answer[query[1]], answer[query[2]] = answer[query[2]], answer[query[1]]
     else:
         answer[query[1]][query[2]] = query[3]
 
