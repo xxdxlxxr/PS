@@ -1,14 +1,8 @@
 def solution(s):
-    s, answer, cnt = sorted(s), [], 0
-    s.append(' ')
+    answer = []
     
-    for i in range(1, len(s)):
-        if s[i - 1] == s[i]:
-            cnt += 1
-        else:
-            if not cnt:
-                answer.append(s[i - 1])
+    for alpha in set(s):
+        if s.count(alpha) == 1:
+            answer.append(alpha)
             
-            cnt = 0
-            
-    return ''.join(answer)
+    return ''.join(sorted(answer))
