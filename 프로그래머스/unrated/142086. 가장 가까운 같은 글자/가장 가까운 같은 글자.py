@@ -1,5 +1,5 @@
 def solution(s):
-    arr, answer = 26 * [0], []
+    answer = []
     
     for i in range(len(s)):
         if s[i] in s[:i]:
