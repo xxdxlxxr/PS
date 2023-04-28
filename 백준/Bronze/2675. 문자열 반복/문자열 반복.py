@@ -1,7 +1,7 @@
 for _ in range(int(input())):
-    S, R = input().split()
+    R, S = input().split()
 
-    for char in R:
-        print(int(S) * char, end = '')
+    for char in S:
+        print(int(R) * char, end = '')
 
     print()
