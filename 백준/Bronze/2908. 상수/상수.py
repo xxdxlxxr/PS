@@ -1,3 +1,3 @@
 A, B = input().split()
 
-print(max(int(A[::-1]), int(B[::-1])))
+print(max(A[::-1], B[::-1]))
