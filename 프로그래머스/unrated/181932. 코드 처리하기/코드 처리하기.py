@@ -10,8 +10,5 @@ def solution(code):
         else:
             if not i % 2:
                 answer += code[i]
-    
-    if answer == '':
-        return 'EMPTY'
-    else:
-        return answer
+                
+    return 'EMPTY' if answer == '' else answer
