@@ -1,0 +1,1 @@
+print('no ' * (not 'ss' in input()) + 'hiss')
