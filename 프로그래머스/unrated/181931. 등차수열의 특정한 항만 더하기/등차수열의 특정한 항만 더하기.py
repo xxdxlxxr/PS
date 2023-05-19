@@ -1,8 +1,7 @@
 def solution(a, d, included):
-    sum = 0
+    answer = 0
     
     for i in range(len(included)):
-        if included[i]:
-            sum += i
+        answer += included[i] * (a + i * d)
     
-    return included.count(1) * a + sum * d
+    return answer
