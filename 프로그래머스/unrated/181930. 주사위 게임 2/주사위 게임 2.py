@@ -5,7 +5,7 @@ def solution(a, b, c):
     
     if a == b == c:
         return C
-    elif a == b and b != c or a == c and a != b or b == c and a != b:
+    elif a == b or a == c or b == c:
         return B
     else:
         return A
