@@ -1,6 +1,6 @@
 # [unrated] 마지막 두 원소 - 181927 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181927) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181927?language=python3) 
 
 ### 성능 요약
 
