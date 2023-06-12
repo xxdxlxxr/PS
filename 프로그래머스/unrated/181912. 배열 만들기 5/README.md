@@ -1,10 +1,10 @@
 # [unrated] 배열 만들기 5 - 181912 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181912) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181912?language=python3) 
 
 ### 성능 요약
 
-메모리: 11.3 MB, 시간: 1.58 ms
+메모리: 11.4 MB, 시간: 1.51 ms
 
 ### 구분
 

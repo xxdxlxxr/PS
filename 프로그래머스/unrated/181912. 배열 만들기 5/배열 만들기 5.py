@@ -1,10 +1,2 @@
 def solution(intStrs, k, s, l):
-    answer = []
-    
-    for intStr in intStrs:
-        tmp = int(intStr[s:s + l])
-        
-        if tmp > k:
-            answer.append(tmp)
-    
-    return answer
+    return [int(intStr[s:s + l]) for intStr in intStrs if int(intStr[s:s + l]) > k]
