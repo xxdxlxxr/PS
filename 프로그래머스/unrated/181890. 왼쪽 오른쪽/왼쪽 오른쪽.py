@@ -1,7 +1,6 @@
 def solution(str_list):
-    l, r = 21,21
+    for i in range(len(str_list)):
+        if str_list[i] == 'l': return str_list[:i]
+        elif str_list[i] == 'r': return str_list[i + 1:]
     
-    if 'l' in str_list: l = str_list.index('l')
-    if 'r' in str_list: r = str_list.index('r')
-    
-    return str_list[:l] if l < r else str_list[r + 1:] if r < 21 else []
+    return []
