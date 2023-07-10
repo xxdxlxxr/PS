@@ -5,6 +5,4 @@ def solution(numbers, n):
         answer += number
         
         if answer > n:
-            break
-    
-    return answer
+            return answer
