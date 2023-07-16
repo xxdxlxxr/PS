@@ -1,3 +1,3 @@
-a = int(input())
+n = int(input())
 
-print(a, 'is', ['even', 'odd'][a % 2])
+print(n, 'is', ['even', 'odd'][n % 2])

@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 7.46 MB, 시간: 11.51 ms
+메모리: 7.55 MB, 시간: 13.14 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@ Empty
 
 ### 문제 설명
 
-<p>자연수 <code>n</code>이 입력으로 주어졌을 때 만약 <code>n</code>이 짝수이면 "<code>n</code> is even"을, 홀수이면 "<code>n</code> is odd."를 출력하는 코드를 작성해 보세요.</p>
+<p>자연수 <code>n</code>이 입력으로 주어졌을 때 만약 <code>n</code>이 짝수이면 "<code>n</code> is even"을, 홀수이면 "<code>n</code> is odd"를 출력하는 코드를 작성해 보세요.</p>
 
 <hr>
 
@@ -42,5 +42,7 @@ Empty
 <p>출력 #2</p>
 <div class="highlight"><pre class="codehilite"><code>1 is odd
 </code></pre></div>
+<p>※ 2023년 05월 15일 지문이 수정되었습니다.</p>
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
