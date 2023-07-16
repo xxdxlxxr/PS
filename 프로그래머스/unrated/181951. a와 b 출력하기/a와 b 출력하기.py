@@ -1,3 +1,4 @@
-a, b = map(int, input().strip().split(' '))
+a, b = map(int, input().split(' '))
 
-print('a =', a, '\nb =', b)
+print('a =', a)
+print('b =', b)
