@@ -1,0 +1,1 @@
+print('SK' if int(input()) % 4 % 2 else 'CY')
