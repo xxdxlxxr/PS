@@ -2,8 +2,8 @@
 
 int main()
 {
-    char str[51];
+    char str[50];
     
-    scanf("%s", &str);
+    scanf("%s", str);
     printf("%s??!", str);
 }
