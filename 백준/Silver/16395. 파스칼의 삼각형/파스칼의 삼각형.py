@@ -6,7 +6,4 @@ def factorial(N):
 
 n, k = map(int, input().split())
 
-if k == 1 or n == k:
-    print(1)
-else:
-    print(factorial(n - 1) // factorial(k - 1) // factorial(n - k))
+print(1 if k == 1 or n == k else factorial(n - 1) // factorial(k - 1) // factorial(n - k))
