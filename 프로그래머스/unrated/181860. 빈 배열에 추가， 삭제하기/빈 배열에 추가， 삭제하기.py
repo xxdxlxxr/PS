@@ -1,10 +1,10 @@
 def solution(arr, flag):
-    answer = []
+    X = []
     
-    for i in range(len(arr)):
+    for i, num in enumerate(arr):
         if flag[i]:
-            answer += 2 * arr[i] * [arr[i]]
+            X += 2 * num * [num]
         else:
-            answer = answer[:-arr[i]]
+            X = X[:-num]
     
-    return answer
+    return X
