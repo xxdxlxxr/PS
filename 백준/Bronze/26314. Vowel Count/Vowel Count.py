@@ -1,8 +1,6 @@
 for _ in range(int(input())):
-    str, cnt = input(), 0
-
-    for char in str:
-        cnt += char in 'aeiou'
-
+    str = input()
+    cnt = sum([char in 'aeiou' for char in str])
+    
     print(str)
     print(int(cnt > len(str) - cnt))
