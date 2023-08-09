@@ -1,2 +1,2 @@
 def solution(arr, n):
-    return [num + int(not i % 2) * n for i, num in enumerate(arr)] if len(arr) % 2 else [num + i % 2 * n for i, num in enumerate(arr)]
+    return [num + n if i % 2 == (len(arr) + 1) % 2 else num for i, num in enumerate(arr)]
