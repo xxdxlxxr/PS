@@ -1,0 +1,1 @@
+print(sum(sorted([int(input()) for _ in range(10)], reverse = True)[:3]), sum(sorted([int(input()) for _ in range(10)], reverse = True)[:3]))
