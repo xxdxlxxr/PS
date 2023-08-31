@@ -1,19 +1,10 @@
 R, C = map(int, input().split())
-card = []
-
-for _ in range(R):
-    design = input()
-    card.append(list(design) + list(reversed(design)))
-
+card = [list(input()) for _ in range(R)]
+card = [[*row, *row[::-1]] for row in [*card, *card[::-1]]]
 A, B = map(int, input().split())
+A -= 1
+B -= 1
+card[A][B] = '#.'[card[A][B] == '#']
 
-for i in range(2 * R):
-    for j in range(2 * C):
-        char = card[min(i, 2 * R - i - 1)][j]
-
-        if i + 1 == A and j + 1 == B:
-            print('#.'[char == '#'], end='')
-        else:
-            print(char, end='')
-
-    print()
+for row in card:
+    print(*row, sep='')
