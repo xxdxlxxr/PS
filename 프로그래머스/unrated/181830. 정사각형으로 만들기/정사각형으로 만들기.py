@@ -1,7 +1,4 @@
 def solution(arr):
-    if len(arr) > len(arr[0]):
-        arr = [nums + (len(arr) - len(arr[0])) * [0] for nums in arr]
-    elif len(arr) < len(arr[0]):
-        arr += (len(arr[0]) - len(arr)) * [len(arr[0]) * [0]]
+    row, col = len(arr), len(arr[0])
     
-    return arr
+    return [nums + (row - col) * [0] for nums in arr] if row > col else arr + (col - row) * [col * [0]] if row < col else arr
