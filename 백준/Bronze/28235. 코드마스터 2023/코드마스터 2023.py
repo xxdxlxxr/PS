@@ -1,0 +1,1 @@
+print(['HIGHSCHOOL', 'MASTER', '0611', 'CONTEST'][['SONGDO', 'CODE', '2023', 'ALGORITHM'].index(input())])
