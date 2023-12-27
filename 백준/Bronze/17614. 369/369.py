@@ -1,0 +1,1 @@
+print(sum(sum(num in '369' for num in str(i + 1)) for i in range(int(input()))))
