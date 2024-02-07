@@ -1,0 +1,1 @@
+int(input()), print(*[min(3 - (M - 250) // 25, 4) for M in map(int, input().split())])
