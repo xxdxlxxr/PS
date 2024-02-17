@@ -1,0 +1,1 @@
+print(sum(char in 'aeiou' for char in input()))
