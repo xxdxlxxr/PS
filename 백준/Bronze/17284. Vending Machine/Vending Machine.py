@@ -1,0 +1,1 @@
+print(5000 - sum([0, 500, 800, 1000][button] for button in map(int, input().split())))
