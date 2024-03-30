@@ -1,0 +1,1 @@
+print(int('0b' + ''.join(reversed(bin(int(input()))[2:])), 2))
