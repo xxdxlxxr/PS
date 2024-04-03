@@ -4,4 +4,4 @@ answer = sum(60 ** (2 - i) * drop[i] for i in range(3)) - sum((60 ** (2 - i)) * 
 if answer <= 0:
     answer += 24 * 60 ** 2
 
-print(str(answer // 60 ** 2).zfill(2), str(answer % 60 ** 2 // 60).zfill(2), str(answer % 60).zfill(2), sep=':')
+print('%02d:%02d:%02d' % (answer // 60 ** 2, answer % 60 ** 2 // 60, answer % 60))
