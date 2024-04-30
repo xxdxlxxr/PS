@@ -1,0 +1,1 @@
+print(''.join(chr((ord(char) - ord('A') + 13) % 26 + ord('A')) if char.isupper() else chr((ord(char) - ord('a') + 13) % 26 + ord('a')) if char.islower() else char for char in input()))
