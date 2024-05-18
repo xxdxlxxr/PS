@@ -7,10 +7,10 @@ for _ in range(int(input())):
 
         for j in range(n):
             if line[j]:
-                L[j].append(m - i)
+                L[j].append(i)
                 
     for l in L:
         size = len(l)
-        answer += sum(l) - size * (size + 1) // 2
-
+        answer += m * size - sum(l) - size * (size + 1) // 2
+        
     print(answer)
