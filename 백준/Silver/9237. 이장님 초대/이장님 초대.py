@@ -1,0 +1,1 @@
+input(), print(max(i + t for i, t in enumerate(sorted(map(int, input().split()), reverse=True))) + 2)
