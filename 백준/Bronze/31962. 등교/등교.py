@@ -1,10 +1,10 @@
 N, X = map(int, input().split())
-tmp = []
+answer = -1
 
 for _ in range(N):
     S, T = map(int, input().split())
 
-    if S + T <= X:
-        tmp.append([S + T, S])
+    if answer < S and S + T <= X:
+        answer = S
 
-print(sorted(tmp)[-1][1] if tmp else -1)
+print(answer)
