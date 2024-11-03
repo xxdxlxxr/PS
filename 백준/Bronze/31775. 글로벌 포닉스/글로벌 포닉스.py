@@ -1,0 +1,1 @@
+print('GLOBAL' if ''.join(sorted(input()[0] for _ in range(3))) == 'klp' else 'PONIX')
