@@ -1,4 +1,3 @@
 import sys
 
-for line in sys.stdin.readlines():
-    print(line, end='')
+print(''.join(line for line in sys.stdin.readlines()))
