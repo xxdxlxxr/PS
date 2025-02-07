@@ -1,0 +1,1 @@
+print('bad' if min(int(input()), int(input())) < 2 * int(input()) else 'good')
