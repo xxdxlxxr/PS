@@ -1,0 +1,2 @@
+score, visiting, home = [6, 3, 2, 1, 2], list(map(int, input().split())), list(map(int, input().split()))
+print(sum(score[i] * visiting[i] for i in range(5)), sum(score[i] * home[i] for i in range(5)))
