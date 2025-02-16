@@ -1,0 +1,1 @@
+print(['MatKor', 'WiCys', 'CyKor', 'AlKor', '$clear']['MWCA$'.index(input())])
