@@ -1,4 +1,4 @@
-answer = -1
+answer = 1001
 
 for _ in range(int(input())):
     A, B = map(int, input().split())
@@ -6,4 +6,4 @@ for _ in range(int(input())):
     if A <= B:
         answer = min(answer, B)
 
-print(answer)
+print(-1 if answer == 1001 else answer)
