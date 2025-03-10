@@ -1,0 +1,2 @@
+scores = [13, 7, 5, 3, 3, 2]
+print(['cocjr0208', 'ekwoo'][sum(number * score for number, score in zip(map(int, input().split()), scores)) < sum(number * score for number, score in zip(map(int, input().split()), scores)) + 1.5])
