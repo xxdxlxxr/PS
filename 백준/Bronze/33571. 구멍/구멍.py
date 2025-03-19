@@ -1,0 +1,1 @@
+print(sum(2 if char == 'B' else 1 if char in 'AabDdegOoPpQqR@' else 0 for char in input()))
