@@ -1,0 +1,1 @@
+print(['Lion', 'Tiger'][sum(input() == 'Tiger' for _ in range(9)) > 4])
