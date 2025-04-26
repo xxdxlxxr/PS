@@ -1,0 +1,1 @@
+print(sum(input()[0] == 'C' for _ in range(int(input()))))
