@@ -8,6 +8,6 @@ for i in range(20, -1, -1):
         total += tmp[i]
     elif total + tmp[i] == N:
         print('YES')
-        exit(0)
+        break
 else:
     print('NO')
