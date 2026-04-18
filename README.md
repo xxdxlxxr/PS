@@ -7,4 +7,16 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/xxdxlxxr/PS/tree/master/0176-second-highest-salary) |
+## Array
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/xxdxlxxr/PS/tree/master/0004-median-of-two-sorted-arrays) |
+## Binary Search
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/xxdxlxxr/PS/tree/master/0004-median-of-two-sorted-arrays) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/xxdxlxxr/PS/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
