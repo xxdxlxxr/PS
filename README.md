@@ -11,6 +11,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/xxdxlxxr/PS/tree/master/0004-median-of-two-sorted-arrays) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/xxdxlxxr/PS/tree/master/0026-remove-duplicates-from-sorted-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -19,4 +20,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/xxdxlxxr/PS/tree/master/0004-median-of-two-sorted-arrays) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/xxdxlxxr/PS/tree/master/0026-remove-duplicates-from-sorted-array) |
 <!---LeetCode Topics End-->
